@@ -1,0 +1,5 @@
+[INFO ] [2022-09-30 02:44:16,196] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-09-30 02:44:17,028] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-09-30 02:44:17,689] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-09-30 02:44:18,646] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-09-30 02:44:18,710] Register_03 - Step 05: Click to Logout button
