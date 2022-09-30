@@ -621,6 +621,23 @@ public class BasePage {
 				
 
 	}
+	public void inputToTextboxDefinedByID(WebDriver driver, String inputValue ,String textboxId) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxId);
+		sendKeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, inputValue, textboxId);
+	}
 	
+	public void selectOptionInDropdownDefinedByName(WebDriver driver, String optionValue, String dropdownName) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
+		selectItemInDefaultDropdown(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME, optionValue, dropdownName);
+	}
+	
+	public boolean isNewDateOfBirthDisplayed(WebDriver driver, String dropdownName, String selectedOption ) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_DROPDOWN, dropdownName, selectedOption );
+		return isElementSelected(driver,  BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_DROPDOWN, dropdownName, selectedOption);
+	}
+	public String getTextInTextboxDefinedByID(WebDriver driver, String attributeName, String textboxId) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxId);
+		return getElementAttribute(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, attributeName, textboxId);
+	}
 	
 }

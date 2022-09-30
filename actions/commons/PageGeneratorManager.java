@@ -8,9 +8,7 @@ import userPageObjects.UserLoginPageObject;
 import userPageObjects.UserRegisterPageObject;
 
 public class PageGeneratorManager {
-	public static UserHomePageObject getHomePageObject(WebDriver driver) {
-		return new UserHomePageObject(driver);
-	}
+
 
 	public static UserRegisterPageObject getRegisterPage(WebDriver driver) {
 		

@@ -1,5 +1,60 @@
-[INFO ] [2022-09-30 02:44:16,196] Pre-condition - Step 01: Click to Register link
-[INFO ] [2022-09-30 02:44:17,028] Register_03 - Step 02: Input to required fields
-[INFO ] [2022-09-30 02:44:17,689] Register_03 - Step 03: Click to Register button
-[INFO ] [2022-09-30 02:44:18,646] Register_03 - Step 04: Verify successful mesage displayed
-[INFO ] [2022-09-30 02:44:18,710] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-01 04:22:05,481] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-01 04:22:06,372] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-01 04:22:07,556] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-01 04:22:08,441] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-01 04:22:08,535] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-01 04:22:23,768] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-01 04:22:24,640] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-01 04:22:24,656] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-01 04:22:24,657] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-01 04:22:25,285] Login - Step 06: Click on close button in login coookie message
+[INFO ] [2022-10-01 04:22:25,411] Login - Step 06: Navigate to My Account - Customer Info page
+[INFO ] [2022-10-01 04:22:26,742] Step 01: Select GenderFemale
+[INFO ] [2022-10-01 04:22:26,895] Step 01: Edit first name with data: linhEdit
+[INFO ] [2022-10-01 04:22:27,102] Step 01: Edit last name with data: phamEdit
+[INFO ] [2022-10-01 04:22:27,377] Step 01: Select Day = 18
+[INFO ] [2022-10-01 04:22:27,585] Step 01: Select Month = August
+[INFO ] [2022-10-01 04:22:27,778] Step 01: Select Year = 1996
+[INFO ] [2022-10-01 04:22:27,966] Step 01: Edit email with new email: linhptkEdit502@gmail.com
+[INFO ] [2022-10-01 04:22:28,223] Step 01: Edit company name with data: companyNameEdit
+[INFO ] [2022-10-01 04:22:28,456] Step 01: Click on Save button
+[INFO ] [2022-10-01 04:22:29,249] Step 01: Verify Female gender is selected 
+[INFO ] [2022-10-01 04:22:29,322] Step 01: Verify new first name is displayed = linhEdit
+[INFO ] [2022-10-01 04:22:29,390] Step 01: Verify new last  name is displayed = phamEdit
+[INFO ] [2022-10-01 04:22:29,475] Step 01: Verify new date of birth is displayed = 18
+[INFO ] [2022-10-01 04:22:29,568] Step 01: Verify new month of birth is displayed = August
+[INFO ] [2022-10-01 04:22:29,652] Step 01: Verify new year of birth is displayed = 1996
+[INFO ] [2022-10-01 04:22:29,730] Step 01: Verify new email is displayed = linhptkEdit502@gmail.com
+[INFO ] [2022-10-01 04:22:29,793] Step 01: Verify new company name is displayed = companyNameEdit
+[INFO ] [2022-10-01 04:22:35,693] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-01 04:22:35,695] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-01 04:22:36,654] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-01 04:22:36,878] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-01 04:22:37,002] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-01 04:22:37,235] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-01 04:22:37,343] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-01 04:22:37,471] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-01 04:22:37,572] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-01 04:22:38,168] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-01 04:22:38,406] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-01 04:22:38,679] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-01 04:22:38,975] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-01 04:22:39,277] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-01 04:22:39,590] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-01 04:22:39,821] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-01 04:22:39,923] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-01 04:22:40,462] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-01 04:22:41,538] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-01 04:22:42,503] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-01 04:22:42,604] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-01 04:22:43,555] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-01 04:22:44,166] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-01 04:22:45,609] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-01 04:22:46,254] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-01 04:22:46,348] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-01 04:22:46,877] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-01 04:22:47,987] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-01 04:22:48,247] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-01 04:22:48,777] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-01 04:22:49,888] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-01 04:22:50,011] Register Page - Step 03: Input to required fields

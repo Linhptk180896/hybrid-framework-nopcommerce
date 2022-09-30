@@ -5,9 +5,13 @@
 <parameter name= "appUrl" value="https://demo.nopcommerce.com/"></parameter>
 <test name="Run on Chrome">
 <parameter name="browserName" value="chrome"></parameter>
-    <classes>
-      <class name="com.nopcommerce.user.Login"/>
-    </classes>
+
+    <packages>
+	<package name="userRegisterAndLogin"></package>
+	<package name="com.nopcommerce.user"></package>
+	</packages>
+    
+    
   </test> 
 
 

@@ -51,6 +51,12 @@ public class UserHomePageObject extends BasePage {
 	}
 
 
+	public void clickOnCloseIconLoginCookieMessage() {
+		waitForElementClickable(driver, UserHomePageUI.CLOSE_ICON_IN_LOGIN_COOKIE_MESSAGE);
+		clickToElement(driver, UserHomePageUI.CLOSE_ICON_IN_LOGIN_COOKIE_MESSAGE);
+	}
+
+
 	}
 
 	

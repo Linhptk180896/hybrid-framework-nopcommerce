@@ -47,5 +47,9 @@ public UserHomePageObject LoginAsUser(String validEmail, String password) {
 	
 }
 
+public UserHomePageObject openHomePageByCookie() {
+	return PageGeneratorManager.getHomePage(driver);
+}
+
 
 }

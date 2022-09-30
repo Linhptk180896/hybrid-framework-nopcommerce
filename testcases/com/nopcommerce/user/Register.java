@@ -24,7 +24,7 @@ public class Register extends BaseTest{
 	public void BeforeClass ( String appUrl, String browserName){
 		driver = getBrowser(appUrl, browserName);
 		log.info("Pre-Condition 01: Access NopCommerce site");
-		userHomePage = PageGeneratorManager.getHomePageObject(driver);
+		userHomePage = PageGeneratorManager.getHomePage(driver);
 		firstName = "linh";
 		lastName = "pham";
 		password = "123456";

@@ -1,10 +1,10 @@
 package pageUIs;
 
-// PageObject chứa các action của page
-// PageUI sẽ chứa các loccator của các fields 
-//Đặt tên: Tên biến locator (String, int...)  - Tên field - loại field
+
 	public  class UserCustomerInfoPageUI {
-		//biến constants hằng số
 	public static final String CUSTOMER_INFO_TITLE = "xpath=//div[@class='page-title']//h1[text()='My account - Customer info']";
-	
+	public static final String DYNAMIC_GENDER_CHECKBOX = "xpath=//label[text()='Male']//preceding-sibling::input";
+	//FirstName - LastName - Email - Company
+	public static final String SAVE_BUTTON = "xpath=//button[@id='save-info-button']";
+
 }

@@ -65,7 +65,7 @@ public class Login extends BaseTest {
 	
 	@Test
 	public void Login_02_Invalid_Email() {
-		userHomePage.openLoginPage();
+		userLoginPage = userHomePage.openLoginPage();
 		userLoginPage.inputToEmailTextbox(invalidEmail);
 		userLoginPage.clickToLoginButton();
 		Assert.assertEquals(userLoginPage.getErrorMessageAtEmailTextbox(), "Wrong email");
@@ -76,7 +76,7 @@ public class Login extends BaseTest {
 	
 	@Test
 	public void Login_03_Email_Not_Register() {
-		userHomePage.openLoginPage();
+		userLoginPage = userHomePage.openLoginPage();
 		userLoginPage.inputToEmailTextbox(notFoundEmail);
 		userLoginPage.clickToLoginButton();
 		Assert.assertEquals(userLoginPage.getErrorMessageUnsuccessful(), "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found");
@@ -85,7 +85,7 @@ public class Login extends BaseTest {
 	
 	@Test
 	public void Login_04_Existing_Email_Empty_Password() {
-		userHomePage.openLoginPage();
+		userLoginPage = userHomePage.openLoginPage();
 		userLoginPage.inputToEmailTextbox(existingEmail);
 		userLoginPage.clickToLoginButton();
 		Assert.assertEquals(userLoginPage.getErrorMessageUnsuccessful(), "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
@@ -95,7 +95,7 @@ public class Login extends BaseTest {
 
 	@Test
 	public void Login_05_Existing_Email_Wrong_Password() {
-		userHomePage.openLoginPage();
+		userLoginPage = userHomePage.openLoginPage();
 		userLoginPage.inputToEmailTextbox(existingEmail);
 		userLoginPage.inputToPasswordTextbox(wrongPassword);
 		userLoginPage.clickToLoginButton();
@@ -106,11 +106,10 @@ public class Login extends BaseTest {
 	
 	@Test
 	public void Login_06_Existing_Email_Correct_Password() {
-		userHomePage.openLoginPage();
+		userLoginPage = userHomePage.openLoginPage();
 		userLoginPage.inputToEmailTextbox(existingEmail);
 		userLoginPage.inputToPasswordTextbox(password);
 		userLoginPage.clickToLoginButton();
-		//login thành công thì vào màn homepage
 		userHomePage = new UserHomePageObject(driver);
 		Assert.assertTrue(userHomePage.isMyAccountLinkDisplayed());
 		
