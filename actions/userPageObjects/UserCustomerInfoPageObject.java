@@ -40,7 +40,11 @@ public class UserCustomerInfoPageObject extends BasePage {
 		waitForElementVisible(driver, UserCustomerInfoPageUI.DYNAMIC_GENDER_CHECKBOX, gender);
 		return isElementSelected(driver, UserCustomerInfoPageUI.DYNAMIC_GENDER_CHECKBOX, gender);
 	}
+	
 
+
+
+	
 
 
 

@@ -311,3 +311,473 @@
 [INFO ] [2022-10-01 04:22:48,777] Register Page - Step 02: Input to required fields
 [INFO ] [2022-10-01 04:22:49,888] Register_05 - Step 03: Click to Register button
 [INFO ] [2022-10-01 04:22:50,011] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 01:15:18,781] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:15:19,400] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:15:20,094] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:15:20,915] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:15:20,970] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:15:32,941] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-02 01:15:33,536] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-02 01:15:33,543] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-02 01:15:33,543] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-02 01:15:38,273] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-02 01:15:38,276] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-02 01:15:39,228] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-02 01:15:39,352] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-02 01:15:39,414] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-02 01:15:39,476] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-02 01:15:39,537] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-02 01:15:39,609] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-02 01:15:39,675] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:15:40,110] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:15:40,253] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:15:40,408] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:15:40,578] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:15:40,756] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:15:40,919] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:15:41,027] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-02 01:15:41,092] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:15:41,621] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:15:42,466] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:15:43,655] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:15:43,714] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:15:44,747] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:15:45,133] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:15:45,677] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:15:46,070] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-02 01:15:46,135] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:15:46,586] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:15:47,620] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:15:47,811] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:15:48,245] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:15:49,088] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:15:49,179] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 01:19:56,234] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:19:57,283] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:19:57,973] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:19:59,033] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:19:59,100] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:20:11,503] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-02 01:20:12,599] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-02 01:20:13,033] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-02 01:20:13,033] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-02 01:20:13,232] Login - Step 06: Click on close button in login coookie message
+[INFO ] [2022-10-02 01:20:13,385] Login - Step 06: Navigate to My Account - Customer Info page
+[INFO ] [2022-10-02 01:20:14,741] Step 01: Select GenderFemale
+[INFO ] [2022-10-02 01:20:14,882] Step 01: Edit first name with data: linhEdit
+[INFO ] [2022-10-02 01:20:15,029] Step 01: Edit last name with data: phamEdit
+[INFO ] [2022-10-02 01:20:15,176] Step 01: Select Day = 18
+[INFO ] [2022-10-02 01:20:15,243] Step 01 - Open Addresses page
+[INFO ] [2022-10-02 01:20:15,822] Step 02 - Click on Add new button
+[INFO ] [2022-10-02 01:20:16,455] Step 03 - Verify Customer Address Page is selected
+[INFO ] [2022-10-02 01:20:50,322] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-02 01:20:50,324] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-02 01:20:50,973] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-02 01:20:51,088] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-02 01:20:51,145] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-02 01:20:51,202] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-02 01:20:51,259] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-02 01:20:51,316] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-02 01:20:51,373] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:20:51,791] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:20:51,909] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:20:52,027] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:20:52,155] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:20:52,295] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:20:52,431] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:20:52,538] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-02 01:20:52,608] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:20:53,029] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:20:53,618] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:20:54,440] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:20:54,499] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:20:55,200] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:20:55,591] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:20:56,270] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:20:56,698] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-02 01:20:56,758] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:20:57,184] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:20:57,766] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:20:57,915] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:20:58,318] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:20:58,883] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:20:58,965] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 01:30:58,738] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:30:59,397] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:31:00,296] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:31:01,140] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:31:01,229] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:31:13,052] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-02 01:31:13,928] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-02 01:31:13,938] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-02 01:31:13,939] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-02 01:31:14,419] Login - Step 06: Click on close button in login coookie message
+[INFO ] [2022-10-02 01:31:14,531] Login - Step 06: Navigate to My Account - Customer Info page
+[INFO ] [2022-10-02 01:31:16,038] Step 01: Select GenderFemale
+[INFO ] [2022-10-02 01:31:16,191] Step 01: Edit first name with data: linhEdit
+[INFO ] [2022-10-02 01:31:16,365] Step 01: Edit last name with data: phamEdit
+[INFO ] [2022-10-02 01:31:16,555] Step 01: Select Day = 18
+[INFO ] [2022-10-02 01:31:16,610] Step 01 - Open Addresses page
+[INFO ] [2022-10-02 01:31:17,163] Step 02 - Click on Add new button
+[INFO ] [2022-10-02 01:31:17,773] Step 03 - Verify Customer Address Page is selected
+[INFO ] [2022-10-02 01:31:52,712] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-02 01:31:52,714] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-02 01:31:53,536] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-02 01:31:53,729] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-02 01:31:53,814] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-02 01:31:53,892] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-02 01:31:53,978] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-02 01:31:54,058] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-02 01:31:54,136] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:31:54,702] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:31:54,913] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:31:55,158] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:31:55,456] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:31:55,673] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:31:55,908] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:31:56,149] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-02 01:31:56,282] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:31:56,799] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:31:57,915] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:31:58,885] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:31:58,935] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:31:59,764] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:32:00,247] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:32:01,067] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:32:01,568] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-02 01:32:01,644] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:32:02,123] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:32:03,160] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:32:03,415] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:32:03,881] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:32:04,754] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:32:04,865] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 01:32:56,286] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:32:57,346] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:32:58,521] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:32:59,533] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:32:59,613] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:33:15,456] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-02 01:33:16,527] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-02 01:33:16,540] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-02 01:33:16,541] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-02 01:33:17,044] Login - Step 06: Click on close button in login coookie message
+[INFO ] [2022-10-02 01:33:17,197] Login - Step 06: Navigate to My Account - Customer Info page
+[INFO ] [2022-10-02 01:33:18,801] Step 01: Select GenderFemale
+[INFO ] [2022-10-02 01:33:19,051] Step 01: Edit first name with data: linhEdit
+[INFO ] [2022-10-02 01:33:19,298] Step 01: Edit last name with data: phamEdit
+[INFO ] [2022-10-02 01:33:19,571] Step 01: Select Day = 18
+[INFO ] [2022-10-02 01:33:19,659] Step 01 - Open Addresses page
+[INFO ] [2022-10-02 01:33:20,302] Step 02 - Click on Add new button
+[INFO ] [2022-10-02 01:33:21,103] Step 03 - Verify Customer Address Page is selected
+[INFO ] [2022-10-02 01:33:57,262] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-02 01:33:57,264] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-02 01:33:58,103] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-02 01:33:58,297] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-02 01:33:58,391] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-02 01:33:58,491] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-02 01:33:58,578] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-02 01:33:58,654] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-02 01:33:58,723] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:33:59,180] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:33:59,368] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:33:59,600] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:33:59,847] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:34:00,142] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:34:00,484] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:34:00,674] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-02 01:34:00,877] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:34:01,423] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:34:02,709] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:34:03,737] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:34:03,805] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:34:04,641] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:34:05,135] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:34:06,091] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:34:06,719] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-02 01:34:06,867] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:34:07,396] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:34:08,428] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:34:08,642] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:34:09,167] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:34:10,257] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:34:10,376] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 01:39:30,759] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:39:31,902] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:39:33,175] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:39:34,388] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:39:34,510] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:39:51,916] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-02 01:39:52,800] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-02 01:39:53,237] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-02 01:39:53,238] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-02 01:39:53,371] Login - Step 06: Click on close button in login coookie message
+[INFO ] [2022-10-02 01:39:53,542] Login - Step 06: Navigate to My Account - Customer Info page
+[INFO ] [2022-10-02 01:39:55,176] Step 01: Select GenderFemale
+[INFO ] [2022-10-02 01:39:55,433] Step 01: Edit first name with data: linhEdit
+[INFO ] [2022-10-02 01:39:55,698] Step 01: Edit last name with data: phamEdit
+[INFO ] [2022-10-02 01:39:56,058] Step 01: Select Day = 18
+[INFO ] [2022-10-02 01:39:56,150] Step 01 - Open Addresses page
+[INFO ] [2022-10-02 01:39:56,943] Step 02 - Click on Add new button
+[INFO ] [2022-10-02 01:39:57,797] Step 03 - Verify Customer Address Page is selected
+[INFO ] [2022-10-02 01:40:33,697] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-02 01:40:33,699] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-02 01:40:34,485] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-02 01:40:34,784] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-02 01:40:34,899] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-02 01:40:35,000] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-02 01:40:35,095] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-02 01:40:35,192] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-02 01:40:35,293] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:40:35,846] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:40:36,070] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:40:36,355] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:40:36,607] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:40:36,889] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:40:37,173] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:40:37,359] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-02 01:40:37,510] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:40:38,141] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:40:39,385] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:40:40,461] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:40:40,557] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:40:41,475] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:40:42,137] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:40:43,508] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:40:44,139] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-02 01:40:44,243] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:40:44,836] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:40:46,087] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:40:46,393] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:40:46,981] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:40:48,142] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:40:48,287] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 01:49:58,881] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:50:00,065] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:50:01,557] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:50:02,693] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:50:02,812] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:50:22,808] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-02 01:50:23,847] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-02 01:50:23,867] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-02 01:50:23,867] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-02 01:50:24,360] Login - Step 06: Click on close button in login coookie message
+[INFO ] [2022-10-02 01:50:24,525] Login - Step 06: Navigate to My Account - Customer Info page
+[INFO ] [2022-10-02 01:50:26,110] Step 01: Select GenderFemale
+[INFO ] [2022-10-02 01:50:26,395] Step 01: Edit first name with data: linhEdit
+[INFO ] [2022-10-02 01:50:26,679] Step 01: Edit last name with data: phamEdit
+[INFO ] [2022-10-02 01:50:26,987] Step 01: Select Day = 18
+[INFO ] [2022-10-02 01:50:27,174] Step 01 - Open Addresses page
+[INFO ] [2022-10-02 01:50:27,876] Step 02 - Click on Add new button
+[INFO ] [2022-10-02 01:50:28,714] Step 03 - Verify Customer Address Page is selected
+[INFO ] [2022-10-02 01:51:05,605] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-02 01:51:05,607] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-02 01:51:07,172] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-02 01:51:07,475] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-02 01:51:07,615] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-02 01:51:07,762] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-02 01:51:07,892] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-02 01:51:08,006] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-02 01:51:08,114] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:51:08,779] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:51:09,118] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:51:09,401] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:51:09,652] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:51:09,964] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:51:10,363] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:51:10,620] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-02 01:51:10,995] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:51:11,687] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:51:13,218] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:51:14,541] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:51:14,661] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:51:15,627] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:51:16,310] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:51:17,905] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:51:18,576] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-02 01:51:18,692] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:51:19,330] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:51:20,953] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:51:21,268] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:51:21,843] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:51:23,640] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:51:23,863] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 01:58:21,553] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:58:22,244] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:58:23,059] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:58:23,883] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:58:23,951] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:58:36,010] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-02 01:58:36,936] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-02 01:58:36,947] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-02 01:58:36,947] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-02 01:58:37,402] Login - Step 06: Click on close button in login coookie message
+[INFO ] [2022-10-02 01:58:37,523] Login - Step 06: Navigate to My Account - Customer Info page
+[INFO ] [2022-10-02 01:58:38,988] Step 01: Select GenderFemale
+[INFO ] [2022-10-02 01:58:39,130] Step 01: Edit first name with data: linhEdit
+[INFO ] [2022-10-02 01:58:39,294] Step 01: Edit last name with data: phamEdit
+[INFO ] [2022-10-02 01:58:39,489] Step 01: Select Day = 18
+[INFO ] [2022-10-02 01:59:09,602] Step 01 - Open Addresses page
+[INFO ] [2022-10-02 01:59:10,181] Step 02 - Click on Add new button
+[INFO ] [2022-10-02 01:59:10,770] Step 03 - Verify Customer Address Page is selected
+[INFO ] [2022-10-02 01:59:44,444] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-02 01:59:44,446] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-02 01:59:45,319] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-02 01:59:45,472] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-02 01:59:45,546] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-02 01:59:45,615] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-02 01:59:45,682] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-02 01:59:45,749] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-02 01:59:45,816] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:59:46,261] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:59:46,399] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:59:46,521] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:59:46,659] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:59:46,805] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:59:46,949] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:59:47,071] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-02 01:59:47,157] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:59:47,608] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:59:48,395] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:59:49,290] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 01:59:49,345] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 01:59:50,099] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:59:50,542] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:59:51,232] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:59:51,653] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-02 01:59:51,716] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:59:52,128] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:59:52,780] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:59:52,916] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-02 01:59:53,319] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-02 01:59:54,002] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 01:59:54,095] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 02:10:43,155] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-02 02:10:43,159] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-02 02:10:43,828] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-02 02:10:44,007] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-02 02:10:44,109] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-02 02:10:44,201] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-02 02:10:44,269] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-02 02:10:44,343] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-02 02:10:44,432] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:10:44,919] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:10:45,074] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:10:45,220] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:10:45,394] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:10:45,558] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:10:45,707] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:10:45,820] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-02 02:10:45,898] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:10:46,364] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:10:47,098] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:10:48,037] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 02:10:48,095] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 02:10:49,243] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:10:49,677] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:10:50,344] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:10:50,782] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-02 02:10:50,839] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:10:51,231] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:10:51,836] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:10:51,991] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:10:52,399] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:10:53,079] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:10:53,179] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 02:26:44,069] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:26:44,868] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:26:45,541] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:26:46,383] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 02:26:46,432] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 02:26:57,146] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-02 02:26:57,784] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-02 02:26:57,791] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-02 02:26:57,791] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-02 02:26:58,178] Login - Step 06: Click on close button in login coookie message
+[INFO ] [2022-10-02 02:26:58,270] Login - Step 06: Navigate to My Account - Customer Info page
+[INFO ] [2022-10-02 02:27:03,439] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-02 02:27:03,440] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-02 02:27:04,057] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-02 02:27:04,239] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-02 02:27:04,321] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-02 02:27:04,379] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-02 02:27:04,447] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-02 02:27:04,519] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-02 02:27:04,583] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:27:04,992] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:27:05,120] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:27:05,257] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:27:05,428] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:27:05,579] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:27:05,734] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:27:05,850] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-02 02:27:05,920] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:27:06,357] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:27:07,355] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:27:08,372] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 02:27:08,415] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 02:27:09,263] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:27:09,759] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:27:10,346] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:27:10,742] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-02 02:27:10,805] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:27:11,266] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:27:12,017] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:27:12,217] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:27:12,668] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:27:13,439] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:27:13,534] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 02:29:21,059] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:29:21,793] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:29:22,418] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:29:23,259] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 02:29:23,309] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 02:29:33,505] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-02 02:29:34,134] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-02 02:29:34,141] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-02 02:29:34,141] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-02 02:29:34,495] Login - Step 06: Click on close button in login coookie message
+[INFO ] [2022-10-02 02:29:34,569] Login - Step 06: Navigate to My Account - Customer Info page
+[INFO ] [2022-10-02 02:29:39,346] Pre-Condition 01: Access NopCommerce site
+[INFO ] [2022-10-02 02:29:39,349] Register_01 - Step 01: Click on  Register link to navigate to Register Page 
+[INFO ] [2022-10-02 02:29:39,938] Register_01 - Step 02: Click to Register Button
+[INFO ] [2022-10-02 02:29:40,055] Register_01 - Step 03: Verify First name error message displayed
+[INFO ] [2022-10-02 02:29:40,112] Register_01 - Step 04: Verify Last name error message displayed
+[INFO ] [2022-10-02 02:29:40,155] Register_01 - Step 05: Verify Email  error message displayed
+[INFO ] [2022-10-02 02:29:40,215] Register_01 - Step 06: Verify Password  error message displayed
+[INFO ] [2022-10-02 02:29:40,267] Register_01 - Step 07: Verify Confirm Password error message displayed
+[INFO ] [2022-10-02 02:29:40,329] Register_02 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:29:40,735] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:29:40,849] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:29:40,973] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:29:41,103] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:29:41,226] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:29:41,343] Register_02 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:29:41,434] Register_02 - Step 04: Verify error mesage displayed
+[INFO ] [2022-10-02 02:29:41,495] Register_03 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:29:41,907] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:29:42,510] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:29:43,423] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 02:29:43,470] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 02:29:44,241] Register_04 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:29:44,610] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:29:45,175] Register_04 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:29:45,572] Register_04 - Step 04: Verify existing error message displayed
+[INFO ] [2022-10-02 02:29:45,626] Register_05 - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:29:46,024] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:29:46,552] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:29:46,679] Home Page - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:29:47,045] Register Page - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:29:47,586] Register_05 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:29:47,656] Register Page - Step 03: Input to required fields
+[INFO ] [2022-10-02 02:33:05,000] Pre-condition - Step 01: Click to Register link
+[INFO ] [2022-10-02 02:33:05,769] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-10-02 02:33:06,366] Register_03 - Step 03: Click to Register button
+[INFO ] [2022-10-02 02:33:07,247] Register_03 - Step 04: Verify successful mesage displayed
+[INFO ] [2022-10-02 02:33:07,294] Register_03 - Step 05: Click to Logout button
+[INFO ] [2022-10-02 02:33:16,337] Pre-Conditon - Step 01: Set cookies
+[INFO ] [2022-10-02 02:33:16,884] Pre-Conditon - Step 02: Refresh current Page
+[INFO ] [2022-10-02 02:33:16,890] Pre-Conditon - Step 03: Navigate to Homepage
+[INFO ] [2022-10-02 02:33:16,890] Login - Step 04: Verify My Account Link is displayed
+[INFO ] [2022-10-02 02:33:17,257] Login - Step 06: Click on close button in login coookie message
+[INFO ] [2022-10-02 02:33:17,322] Login - Step 06: Navigate to My Account - Customer Info page

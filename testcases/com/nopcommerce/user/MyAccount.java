@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
+import userPageObjects.UserAddNewAddressesPageObject;
 import userPageObjects.UserCustomerInfoPageObject;
 import userPageObjects.UserHomePageObject;
 import userPageObjects.UserLoginPageObject;
@@ -15,10 +16,11 @@ import userRegisterAndLogin.Common_01_Register_And_Login;
 
 public class MyAccount extends BaseTest {
 	WebDriver driver;
-	String firstNameTextbox, newFirstName, newLastName, gender, dateOfBirth, monthOfBirth, yearOfBirth, newEmail,newCompanyName;
+	String cityStateZip, fullName, province, country, faxNumber, phoneNumber, zipCode, address2, address1, city, firstNameTextbox, newFirstName, newLastName, gender, dateOfBirth, monthOfBirth, yearOfBirth, newEmail,newCompanyName;
 	UserHomePageObject userHomePage;
 	UserLoginPageObject userLoginPage;
 	UserCustomerInfoPageObject userCustomerInfoPage;
+	UserAddNewAddressesPageObject userAddNewAddressesPage;
 	@Parameters({"appUrl", "browserName"})
 	@BeforeClass
 	public void BeforeClass(String appUrl, String browserName ) {
@@ -35,10 +37,10 @@ public class MyAccount extends BaseTest {
 		Assert.assertTrue(userHomePage.isMyAccountLinkDisplayed()); 
 		
 		log.info("Login - Step 06: Click on close button in login coookie message");
-		 userHomePage.clickOnCloseIconLoginCookieMessage();
+		userHomePage.clickOnCloseIconLoginCookieMessage();
 		
 		log.info("Login - Step 06: Navigate to My Account - Customer Info page");
-		userCustomerInfoPage = userHomePage.openMyAccountPage();
+		userCustomerInfoPage = userHomePage.openMyAccountPage(driver);
 		
 	}
 	
@@ -53,6 +55,7 @@ public class MyAccount extends BaseTest {
 		dateOfBirth ="18";
 		monthOfBirth = "August";
 		yearOfBirth ="1996";
+		fullName = newFirstName +" " + newLastName;
 		
 		log.info("Step 01: Select Gender" + gender);
 		userCustomerInfoPage.selectFemaleGender(gender);
@@ -105,6 +108,106 @@ public class MyAccount extends BaseTest {
 		log.info("Step 01: Verify new company name is displayed = " + newCompanyName );
 		Assert.assertEquals(userCustomerInfoPage.getTextInTextboxDefinedByID(driver,"defaultValue", "Company" ),newCompanyName);
 
+		
+		
+	}
+	@Test
+	public void MyAccount_02_Update_Addresses_Info_Successfully() {
+		city ="Ha Noi";
+		address1 ="Address 1";
+		address2 ="Address 2";
+		zipCode ="zipCode123";
+		phoneNumber = "123456789";
+		faxNumber = "AAA123";
+		country ="United States";
+		province ="Alaska";	
+		cityStateZip = city + "," + province + "," + zipCode;
+		
+		log.info("Step 01 - Open Addresses page");
+		userAddNewAddressesPage = userCustomerInfoPage.openAddNewAddressPage(driver);
+		
+		log.info("Step 02 - Click on Add new button");
+		userAddNewAddressesPage.clickOnAddNewButton();
+		
+		log.info("Step 03 - Verify Customer Address Page is selected");
+		Assert.assertTrue(userAddNewAddressesPage.isPageTitleDisplayed(driver, "Addresses"));
+		
+		log.info("Step 04 - Input first name with value =  " + newFirstName);
+		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, newFirstName, "Address_FirstName" );
+		
+		log.info("Step 04 - Input last name with value =  " + newLastName);
+		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, newLastName, "Address_LastName");
+		
+		log.info("Step 04 - Input email with value =  " + newEmail);
+		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, newEmail, "Address_Email");
+		
+		log.info("Step 04 - Input company with value =  " + newCompanyName);
+		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, newCompanyName, "Address_Company");
+		
+		log.info("Step 04 - Select country with value =  " + country);
+		userAddNewAddressesPage.selectCountryAndProvinceInAddNewAddressPage(driver, country,"Address.CountryId");
+		
+		log.info("Step 04 - Select province with value =  " + province);
+		userAddNewAddressesPage.selectCountryAndProvinceInAddNewAddressPage(driver, province,"Address_StateProvinceId");
+		
+		log.info("Step 04 - Input city with value =  " + city);
+		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, city, "Address_City");
+		
+		log.info("Step 04 - Input addtess1  with value =  " + address1);
+		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, address1, "Address_Address1");
+		
+		log.info("Step 04 - Input addtess2  with value =  " + address2);
+		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, address2, "Address_Address2");
+		
+		log.info("Step 04 - Input zipCode  with value =  " + zipCode);
+		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, zipCode, "Address_ZipPostalCode");
+		
+		log.info("Step 04 - Select phone number  with value =  " + phoneNumber);
+		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, phoneNumber, "Address_PhoneNumber");
+		
+		log.info("Step 04 - Select fax number  with value =  " + faxNumber);
+		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, faxNumber, "Address_FaxNumber");
+		
+		log.info("Step 04 - Click on button Save");
+		userAddNewAddressesPage.clickOnSaveButton();
+		
+		log.info("Step 04 - Verify full name is display = " + fullName);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("name"), fullName);
+		
+		
+		log.info("Step 04 - Verify email is display = " + newEmail);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("email"), newEmail);
+		
+		log.info("Step 04 - Verify company is display = " + newCompanyName);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("phone"), newCompanyName);
+		
+		log.info("Step 04 - Verify country is display = " + country);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("country"), country);
+		
+		
+		
+		log.info("Step 04 - Verify city is display = " + city);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("city"), city);
+		
+		log.info("Step 04 - Verify address1 is display = " + address1);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("address1"), address1);
+		
+		log.info("Step 04 - Verify address2 is display = " + address2);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("address2"), address2);
+		
+		log.info("Step 04 - Verify zip code is display = " + zipCode);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("city-state-zip"), cityStateZip);
+		
+		log.info("Step 04 - Verify phone is display = " + phoneNumber);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("phone"), phoneNumber);
+		
+		log.info("Step 04 - Verify fax is display = " + faxNumber);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("fax"), faxNumber);
+		
+		
+	
+		
+		
 		
 		
 	}

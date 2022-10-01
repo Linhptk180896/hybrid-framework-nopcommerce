@@ -29,7 +29,7 @@ public class BaseTest  {
 			
 		}
 		driver.get(appUrl);
-//		driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(GlobalConstans.LONG_TIMEOUT, TimeUnit.SECONDS);
 		return driver;
 	}

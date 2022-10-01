@@ -19,6 +19,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageUIs.UserAddNewAddressesPageUI;
+import pageUIs.UserHomePageUI;
+import userPageObjects.UserAddNewAddressesPageObject;
+import userPageObjects.UserCustomerInfoPageObject;
+
 
 public class BasePage {
 	public static BasePage getBasePageObject() {
@@ -626,18 +631,43 @@ public class BasePage {
 		sendKeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, inputValue, textboxId);
 	}
 	
-	public void selectOptionInDropdownDefinedByName(WebDriver driver, String optionValue, String dropdownName) {
-		waitForElementClickable(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
-		selectItemInDefaultDropdown(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME, optionValue, dropdownName);
+	public void selectOptionInDropdownDefinedByName(WebDriver driver, String selectedOption, String dropdownName) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_DROPDOWN_IN_CUSTOMER_INFO_PAGE_BY_NAME, dropdownName);
+		selectItemInDefaultDropdown(driver, BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_CUSTOMER_INFO_PAGE, selectedOption);
 	}
 	
 	public boolean isNewDateOfBirthDisplayed(WebDriver driver, String dropdownName, String selectedOption ) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_DROPDOWN, dropdownName, selectedOption );
-		return isElementSelected(driver,  BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_DROPDOWN, dropdownName, selectedOption);
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_CUSTOMER_INFO_PAGE, dropdownName, selectedOption );
+		return isElementSelected(driver,  BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_CUSTOMER_INFO_PAGE, selectedOption);
 	}
 	public String getTextInTextboxDefinedByID(WebDriver driver, String attributeName, String textboxId) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxId);
 		return getElementAttribute(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, attributeName, textboxId);
 	}
 	
+	public UserCustomerInfoPageObject openMyAccountPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.MY_ACCOUNT_LINK);
+		clickToElement(driver, BasePageUI.MY_ACCOUNT_LINK);
+		return PageGeneratorManager.getCustomerInfoPage(driver);
+	}
+	
+	public UserAddNewAddressesPageObject openAddNewAddressPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.ADDRESSES_LINK);
+		clickToElement(driver, BasePageUI.ADDRESSES_LINK);
+		return PageGeneratorManager.getAddNewAddressesPage(driver);
+	}
+
+	public void selectCountryAndProvinceInAddNewAddressPage(WebDriver driver, String textItem, String dropdownId) {
+		waitForElementVisible(driver,BasePageUI.DYNAMIC_DROPDOWN_IN_ADD_NEW_ADDRESS_PAGE_BY_ID , dropdownId);
+		selectItemInDefaultDropdown(driver, BasePageUI.DYNAMIC_OPTION_TEXT_IN_ADD_NEW_ADDRESS_PAGE, textItem, dropdownId);
+	
+	}
+	
+	public boolean isPageTitleDisplayed(WebDriver driver, String pageName) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_PAGE_TITLE , pageName);
+		return isElementDisplayed(driver, BasePageUI.DYNAMIC_PAGE_TITLE , pageName);
+		
+	}
+
+
 }

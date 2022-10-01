@@ -3,6 +3,7 @@ package userPageObjects;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import commons.BasePageUI;
 import commons.PageGeneratorManager;
 import pageUIs.UserHomePageUI;
 
@@ -38,17 +39,12 @@ public class UserHomePageObject extends BasePage {
 	
 
 	public boolean isMyAccountLinkDisplayed() {
-		waitForElementVisible(driver, UserHomePageUI.MY_ACCOUNT_LINK);
-		return isElementDisplayed(driver, UserHomePageUI.MY_ACCOUNT_LINK);
+		waitForElementVisible(driver,BasePageUI.MY_ACCOUNT_LINK);
+		return isElementDisplayed(driver, BasePageUI.MY_ACCOUNT_LINK);
 		 
 	}
 
 
-	public UserCustomerInfoPageObject openMyAccountPage() {
-		waitForElementClickable(driver, UserHomePageUI.MY_ACCOUNT_LINK);
-		clickToElement(driver, UserHomePageUI.MY_ACCOUNT_LINK);
-		return PageGeneratorManager.getCustomerInfoPage(driver);
-	}
 
 
 	public void clickOnCloseIconLoginCookieMessage() {
