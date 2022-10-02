@@ -57,6 +57,7 @@ public class MyAccount extends BaseTest {
 		yearOfBirth ="1996";
 		fullName = newFirstName +" " + newLastName;
 		
+		
 		log.info("Step 01: Select Gender" + gender);
 		userCustomerInfoPage.selectFemaleGender(gender);
 		
@@ -67,13 +68,13 @@ public class MyAccount extends BaseTest {
 		userCustomerInfoPage.inputToTextboxDefinedByID(driver, newLastName, "LastName" );
 		
 		log.info("Step 01: Select Day = " + dateOfBirth );
-		userCustomerInfoPage.selectOptionInDropdownDefinedByName(driver, dateOfBirth, "DateOfBirthDay" );
+		userCustomerInfoPage.selectOptionInDropdownDefinedByName(driver, dateOfBirth, "DateOfBirthDay", dateOfBirth );
 		
 		log.info("Step 01: Select Month = " + monthOfBirth );
-		userCustomerInfoPage.selectOptionInDropdownDefinedByName(driver, monthOfBirth, "DateOfBirthMonth" );
+		userCustomerInfoPage.selectOptionInDropdownDefinedByName(driver, monthOfBirth, "DateOfBirthMonth",monthOfBirth );
 
 		log.info("Step 01: Select Year = " + yearOfBirth );
-		userCustomerInfoPage.selectOptionInDropdownDefinedByName(driver, yearOfBirth, "DateOfBirthYear" );
+		userCustomerInfoPage.selectOptionInDropdownDefinedByName(driver, yearOfBirth, "DateOfBirthYear", yearOfBirth);
 
 		log.info("Step 01: Edit email with new email: " + newEmail );
 		userCustomerInfoPage.inputToTextboxDefinedByID(driver, newEmail, "Email" );
@@ -94,13 +95,13 @@ public class MyAccount extends BaseTest {
 		Assert.assertEquals(userCustomerInfoPage.getTextInTextboxDefinedByID(driver,"defaultValue", "LastName"),newLastName);
 
 		log.info("Step 01: Verify new date of birth is displayed = " + dateOfBirth );
-		Assert.assertTrue(userCustomerInfoPage.isNewDateOfBirthDisplayed(driver,"DateOfBirthDay",dateOfBirth ));
+		Assert.assertTrue(userCustomerInfoPage.isNewDateOfBirthDisplayed(driver,dateOfBirth,"DateOfBirthDay" ));
 
 		log.info("Step 01: Verify new month of birth is displayed = " + monthOfBirth );
-		Assert.assertTrue(userCustomerInfoPage.isNewDateOfBirthDisplayed(driver,"DateOfBirthMonth",monthOfBirth ));
+		Assert.assertTrue(userCustomerInfoPage.isNewDateOfBirthDisplayed(driver,monthOfBirth,"DateOfBirthMonth" ));
 
 		log.info("Step 01: Verify new year of birth is displayed = " + yearOfBirth );
-		Assert.assertTrue(userCustomerInfoPage.isNewDateOfBirthDisplayed(driver,"DateOfBirthYear",yearOfBirth ));
+		Assert.assertTrue(userCustomerInfoPage.isNewDateOfBirthDisplayed(driver,yearOfBirth,"DateOfBirthYear" ));
 
 		log.info("Step 01: Verify new email is displayed = " + newEmail );
 		Assert.assertEquals(userCustomerInfoPage.getTextInTextboxDefinedByID(driver,"defaultValue", "Email"),newEmail);
@@ -121,16 +122,17 @@ public class MyAccount extends BaseTest {
 		faxNumber = "AAA123";
 		country ="United States";
 		province ="Alaska";	
-		cityStateZip = city + "," + province + "," + zipCode;
+		cityStateZip = city + ", " + province + ", " + zipCode;
 		
 		log.info("Step 01 - Open Addresses page");
 		userAddNewAddressesPage = userCustomerInfoPage.openAddNewAddressPage(driver);
 		
+		log.info("Step 03 - Verify Customer Address Page is selected");
+		Assert.assertTrue(userAddNewAddressesPage.isPageTitleDisplayed(driver, "Addresses"));
+		
 		log.info("Step 02 - Click on Add new button");
 		userAddNewAddressesPage.clickOnAddNewButton();
 		
-		log.info("Step 03 - Verify Customer Address Page is selected");
-		Assert.assertTrue(userAddNewAddressesPage.isPageTitleDisplayed(driver, "Addresses"));
 		
 		log.info("Step 04 - Input first name with value =  " + newFirstName);
 		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, newFirstName, "Address_FirstName" );
@@ -145,10 +147,10 @@ public class MyAccount extends BaseTest {
 		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, newCompanyName, "Address_Company");
 		
 		log.info("Step 04 - Select country with value =  " + country);
-		userAddNewAddressesPage.selectCountryAndProvinceInAddNewAddressPage(driver, country,"Address.CountryId");
+		userAddNewAddressesPage.selectCountryAndProvinceInAddNewAddressPage(driver, country,"CountryId");
 		
 		log.info("Step 04 - Select province with value =  " + province);
-		userAddNewAddressesPage.selectCountryAndProvinceInAddNewAddressPage(driver, province,"Address_StateProvinceId");
+		userAddNewAddressesPage.selectCountryAndProvinceInAddNewAddressPage(driver, province,"StateProvinceId");
 		
 		log.info("Step 04 - Input city with value =  " + city);
 		userAddNewAddressesPage.inputToTextboxDefinedByID(driver, city, "Address_City");
@@ -176,18 +178,18 @@ public class MyAccount extends BaseTest {
 		
 		
 		log.info("Step 04 - Verify email is display = " + newEmail);
-		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("email"), newEmail);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("email"), "Email: " + newEmail);
 		
 		log.info("Step 04 - Verify company is display = " + newCompanyName);
-		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("phone"), newCompanyName);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("company"), newCompanyName);
 		
 		log.info("Step 04 - Verify country is display = " + country);
 		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("country"), country);
 		
 		
 		
-		log.info("Step 04 - Verify city is display = " + city);
-		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("city"), city);
+//		log.info("Step 04 - Verify city is display = " + city);
+//		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("city"), city);
 		
 		log.info("Step 04 - Verify address1 is display = " + address1);
 		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("address1"), address1);
@@ -199,10 +201,10 @@ public class MyAccount extends BaseTest {
 		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("city-state-zip"), cityStateZip);
 		
 		log.info("Step 04 - Verify phone is display = " + phoneNumber);
-		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("phone"), phoneNumber);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("phone"), "Phone number: " + phoneNumber);
 		
 		log.info("Step 04 - Verify fax is display = " + faxNumber);
-		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("fax"), faxNumber);
+		Assert.assertEquals(userAddNewAddressesPage.getTextInTextboxDefinedByClassName("fax"), "Fax number: " + faxNumber);
 		
 		
 	

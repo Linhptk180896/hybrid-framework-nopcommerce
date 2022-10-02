@@ -1,6 +1,9 @@
 package userPageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import commons.BasePage;
 import pageUIs.UserAddNewAddressesPageUI;
@@ -29,6 +32,8 @@ public class UserAddNewAddressesPageObject extends BasePage {
 	public String getTextInTextboxDefinedByClassName(String textboxClass) {
 		waitForElementVisible(driver, UserAddNewAddressesPageUI.DYNAMIC_INFO_BY_CLASS, textboxClass);
 		return getElementText(driver, UserAddNewAddressesPageUI.DYNAMIC_INFO_BY_CLASS, textboxClass);
+
+		
 	}
 
 }

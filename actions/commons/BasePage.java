@@ -179,6 +179,10 @@ public class BasePage {
 	public List<WebElement> getListWebElement(WebDriver driver, String locatorType) {
 		return driver.findElements(getByLocator(locatorType));
 	} // đã thay = getByLocator
+	
+	public List<WebElement> getListWebElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		return driver.findElements(getByLocator(getDynamicXpath(locatorType, dynamicValues)));
+	} // đã thay = getByLocator
 
 	public void clickToElement(WebDriver driver, String locatorType) {
 		getWebElement(driver, locatorType).click();
@@ -214,8 +218,7 @@ public class BasePage {
 
 	}
 
-	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem,
-			String... dynamicValues) {
+	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem,String... dynamicValues) {
 		Select select = new Select(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
 		select.selectByVisibleText(textItem);
 
@@ -631,14 +634,14 @@ public class BasePage {
 		sendKeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, inputValue, textboxId);
 	}
 	
-	public void selectOptionInDropdownDefinedByName(WebDriver driver, String selectedOption, String dropdownName) {
+	public void selectOptionInDropdownDefinedByName(WebDriver driver, String textItem, String dropdownName, String optionText) {
 		waitForElementClickable(driver, BasePageUI.DYNAMIC_DROPDOWN_IN_CUSTOMER_INFO_PAGE_BY_NAME, dropdownName);
-		selectItemInDefaultDropdown(driver, BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_CUSTOMER_INFO_PAGE, selectedOption);
+		selectItemInDefaultDropdown(driver, BasePageUI.DYNAMIC_DROPDOWN_IN_CUSTOMER_INFO_PAGE_BY_NAME,textItem, dropdownName);
 	}
 	
-	public boolean isNewDateOfBirthDisplayed(WebDriver driver, String dropdownName, String selectedOption ) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_CUSTOMER_INFO_PAGE, dropdownName, selectedOption );
-		return isElementSelected(driver,  BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_CUSTOMER_INFO_PAGE, selectedOption);
+	public boolean isNewDateOfBirthDisplayed(WebDriver driver, String textItem, String dropdownName ) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_CUSTOMER_INFO_PAGE, dropdownName, textItem );
+		return isElementSelected(driver,  BasePageUI.DYNAMIC_OPTION_TEXT_SELECTED_IN_CUSTOMER_INFO_PAGE, dropdownName, textItem);
 	}
 	public String getTextInTextboxDefinedByID(WebDriver driver, String attributeName, String textboxId) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxId);
@@ -659,7 +662,7 @@ public class BasePage {
 
 	public void selectCountryAndProvinceInAddNewAddressPage(WebDriver driver, String textItem, String dropdownId) {
 		waitForElementVisible(driver,BasePageUI.DYNAMIC_DROPDOWN_IN_ADD_NEW_ADDRESS_PAGE_BY_ID , dropdownId);
-		selectItemInDefaultDropdown(driver, BasePageUI.DYNAMIC_OPTION_TEXT_IN_ADD_NEW_ADDRESS_PAGE, textItem, dropdownId);
+		selectItemInDefaultDropdown(driver, BasePageUI.DYNAMIC_DROPDOWN_IN_ADD_NEW_ADDRESS_PAGE_BY_ID, textItem, dropdownId);
 	
 	}
 	
